@@ -22,6 +22,9 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBOutlet weak var textField: NSTextField!
+    @IBAction func pushButton(sender: NSButton) {
+        textField.stringValue = "lol"
+    }
 }
 
