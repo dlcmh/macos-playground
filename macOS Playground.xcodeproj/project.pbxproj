@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCC9EAA1D76874500F789C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC9EA91D76874500F789C3 /* AppDelegate.swift */; };
+		1CCC9EAC1D76874500F789C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC9EAB1D76874500F789C3 /* ViewController.swift */; };
+		1CCC9EAE1D76874600F789C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC9EAD1D76874600F789C3 /* Assets.xcassets */; };
+		1CCC9EB11D76874600F789C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC9EAF1D76874600F789C3 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CCC9EA61D76874500F789C3 /* macOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCC9EA91D76874500F789C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CCC9EAB1D76874500F789C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CCC9EAD1D76874600F789C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CCC9EB01D76874600F789C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CCC9EB21D76874600F789C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CCC9EA31D76874400F789C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CCC9E9D1D76874400F789C3 = {
+			isa = PBXGroup;
+			children = (
+				1CCC9EA81D76874500F789C3 /* macOS Playground */,
+				1CCC9EA71D76874500F789C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CCC9EA71D76874500F789C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC9EA61D76874500F789C3 /* macOS Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CCC9EA81D76874500F789C3 /* macOS Playground */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC9EA91D76874500F789C3 /* AppDelegate.swift */,
+				1CCC9EAB1D76874500F789C3 /* ViewController.swift */,
+				1CCC9EAD1D76874600F789C3 /* Assets.xcassets */,
+				1CCC9EAF1D76874600F789C3 /* Main.storyboard */,
+				1CCC9EB21D76874600F789C3 /* Info.plist */,
+			);
+			path = "macOS Playground";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CCC9EA51D76874400F789C3 /* macOS Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCC9EB51D76874600F789C3 /* Build configuration list for PBXNativeTarget "macOS Playground" */;
+			buildPhases = (
+				1CCC9EA21D76874400F789C3 /* Sources */,
+				1CCC9EA31D76874400F789C3 /* Frameworks */,
+				1CCC9EA41D76874400F789C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS Playground";
+			productName = "macOS Playground";
+			productReference = 1CCC9EA61D76874500F789C3 /* macOS Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CCC9E9E1D76874400F789C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dakerr Consulting";
+				TargetAttributes = {
+					1CCC9EA51D76874400F789C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CCC9EA11D76874400F789C3 /* Build configuration list for PBXProject "macOS Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CCC9E9D1D76874400F789C3;
+			productRefGroup = 1CCC9EA71D76874500F789C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCC9EA51D76874400F789C3 /* macOS Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CCC9EA41D76874400F789C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC9EAE1D76874600F789C3 /* Assets.xcassets in Resources */,
+				1CCC9EB11D76874600F789C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCC9EA21D76874400F789C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC9EAC1D76874500F789C3 /* ViewController.swift in Sources */,
+				1CCC9EAA1D76874500F789C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CCC9EAF1D76874600F789C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CCC9EB01D76874600F789C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CCC9EB31D76874600F789C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CCC9EB41D76874600F789C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CCC9EB61D76874600F789C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakerr.macOS-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CCC9EB71D76874600F789C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "macOS Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dakerr.macOS-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCC9EA11D76874400F789C3 /* Build configuration list for PBXProject "macOS Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCC9EB31D76874600F789C3 /* Debug */,
+				1CCC9EB41D76874600F789C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCC9EB51D76874600F789C3 /* Build configuration list for PBXNativeTarget "macOS Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCC9EB61D76874600F789C3 /* Debug */,
+				1CCC9EB71D76874600F789C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CCC9E9E1D76874400F789C3 /* Project object */;
+}
