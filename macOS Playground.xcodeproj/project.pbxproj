@@ -275,6 +275,7 @@
 				1CCC9EB71D76874600F789C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

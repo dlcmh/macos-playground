@@ -13,7 +13,9 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // http://stackoverflow.com/questions/32199161/changing-background-color-of-nsview-in-swift-2-0
+        view.wantsLayer = true
+        view.layer?.backgroundColor = NSColor.darkGrayColor().CGColor
     }
 
     override var representedObject: AnyObject? {
