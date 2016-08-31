@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,6 +674,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <box title="Box" boxType="custom" borderType="none" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="0BO-TN-ZYv">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                <view key="contentView" id="033-0Q-PLf">
+                                    <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </box>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oPr-m0-T3b">
                                 <rect key="frame" x="192" y="133" width="96" height="32"/>
                                 <buttonCell key="cell" type="push" title="Click Me!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FJO-z7-TfY">
@@ -692,6 +702,12 @@
                                 </textFieldCell>
                             </textField>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0BO-TN-ZYv" secondAttribute="trailing" id="ARO-rT-5pO"/>
+                            <constraint firstAttribute="bottom" secondItem="0BO-TN-ZYv" secondAttribute="bottom" id="O7q-VT-n4B"/>
+                            <constraint firstItem="0BO-TN-ZYv" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="pSa-5W-gNA"/>
+                            <constraint firstItem="0BO-TN-ZYv" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="qAo-xz-3vQ"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="textField" destination="lcs-Y6-Ndl" id="lFt-IR-FhE"/>
