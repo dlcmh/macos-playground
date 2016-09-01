@@ -8,13 +8,14 @@
 
 import Cocoa
 
+// https://github.com/JohnSundell/SwiftKit/blob/master/Source/OSX/NSView%2BSwiftKit.swift
+// http://stackoverflow.com/questions/27890144/setting-backgroundcolor-of-custom-nsview
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.wantsLayer = true
-        view.layer?.backgroundColor = NSColor.darkGrayColor().CGColor
+        view.backgroundColor = NSColor.orangeColor() // nil or NSColor.clearColor() resets color
     }
 
     override var representedObject: AnyObject? {
@@ -25,7 +26,7 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var textField: NSTextField!
     @IBAction func pushButton(sender: NSButton) {
-        textField.stringValue = generateHello()
+        textField.stringValue = "lol"
     }
 }
 
