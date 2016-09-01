@@ -13,7 +13,6 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // http://stackoverflow.com/questions/32199161/changing-background-color-of-nsview-in-swift-2-0
         view.wantsLayer = true
         view.layer?.backgroundColor = NSColor.darkGrayColor().CGColor
     }
@@ -26,7 +25,7 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var textField: NSTextField!
     @IBAction func pushButton(sender: NSButton) {
-        textField.stringValue = "lol"
+        textField.stringValue = generateHello()
     }
 }
 

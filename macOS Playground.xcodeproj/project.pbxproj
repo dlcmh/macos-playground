@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3841CE1D77FCBF003A4FA2 /* HelloGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3841CD1D77FCBF003A4FA2 /* HelloGenerator.swift */; };
 		1CCC9EAA1D76874500F789C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC9EA91D76874500F789C3 /* AppDelegate.swift */; };
 		1CCC9EAC1D76874500F789C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC9EAB1D76874500F789C3 /* ViewController.swift */; };
 		1CCC9EAE1D76874600F789C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC9EAD1D76874600F789C3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3841CD1D77FCBF003A4FA2 /* HelloGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloGenerator.swift; sourceTree = "<group>"; };
 		1CCC9EA61D76874500F789C3 /* macOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCC9EA91D76874500F789C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CCC9EAB1D76874500F789C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				1CCC9EA91D76874500F789C3 /* AppDelegate.swift */,
 				1CCC9EAB1D76874500F789C3 /* ViewController.swift */,
+				1C3841CD1D77FCBF003A4FA2 /* HelloGenerator.swift */,
 				1CCC9EAD1D76874600F789C3 /* Assets.xcassets */,
 				1CCC9EAF1D76874600F789C3 /* Main.storyboard */,
 				1CCC9EB21D76874600F789C3 /* Info.plist */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3841CE1D77FCBF003A4FA2 /* HelloGenerator.swift in Sources */,
 				1CCC9EAC1D76874500F789C3 /* ViewController.swift in Sources */,
 				1CCC9EAA1D76874500F789C3 /* AppDelegate.swift in Sources */,
 			);
