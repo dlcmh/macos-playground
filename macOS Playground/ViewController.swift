@@ -22,6 +22,13 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBOutlet weak var clickMeTextField: NSTextField!
 
+}
+
+extension ViewController {
+    @IBAction func clickMe(sender: NSButton) {
+        clickMeTextField.stringValue = "lol"
+    }
 }
 
